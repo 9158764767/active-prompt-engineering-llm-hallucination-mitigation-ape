@@ -175,7 +175,7 @@ ape_study/
 │   ├── caller.py           ← Real API: Anthropic / OpenAI / Ollama
 │   ├── metrics.py          ← McNemar, Cohen's κ, all metric functions
 │   ├── figures.py          ← 6 publication PDFs from real data
-│   └── latex_writer.py     ← Rewrites paper tables with real numbers
+│  
 ├── logs/
 │   └── raw_calls/          ← ONE JSON PER API CALL ← your proof
 └── results/
