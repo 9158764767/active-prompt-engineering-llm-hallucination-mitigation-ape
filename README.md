@@ -24,6 +24,57 @@ Large Language Models (LLMs) often generate **hallucinations** — outputs that 
 This project introduces **Active Prompt Engineering (APE)**, a lightweight framework that treats prompts as **control systems** rather than simple instructions.
 
 ---
+> 🔄 **This project is actively evolving:** v1.0 → v1.1 → v2.0 (Research-grade experimental system)
+ <p align="center">
+  <img src="https://img.shields.io/badge/Version-v2.0-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Research%20Grade-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Evolution-v1.0→v2.0-orange?style=for-the-badge" />
+</p>
+
+## 🚀 Releases & Updates
+
+### v1.1 — Improved Prompt Strategies & Evaluation
+Refined Active Prompt Engineering (C+R+V) framework
+Improved constraint, reasoning, and verification prompt design
+Added extended experimental results
+Enhanced evaluation metrics (accuracy, faithfulness)
+Improved documentation and prompt templates
+
+# 🧠 Why this is better
+
+Including **v1.1** shows:
+- 📈 Iterative improvement (very important for research)
+- 🧪 Experiment maturity progression
+- 🏗 Clear evolution: **idea → refinement → system**
+
+### 🆕 v2.0 — Full Experimental Framework (Latest)
+
+This version upgrades the project from a conceptual framework to a **fully reproducible research system**.
+
+#### 🔬 Major Additions
+- End-to-end experimental pipeline (`experiment.py`)
+- Modular evaluation system (`evaluator.py`)
+- Dataset handling (`datasets.py`)
+- Visualization module (`visualizer.py`)
+- JSON-based results storage
+- Publication-ready figures and plots
+- LaTeX tables for paper integration
+
+#### 📊 Capabilities
+- Multi-strategy evaluation:
+  - Baseline
+  - Constraint Prompting
+  - Chain-of-Thought (CoT)
+  - Chain-of-Verification (CoVe)
+  - APE (C+R+V)
+- Automated metric computation:
+  - Hallucination Rate
+  - Accuracy
+  - Faithfulness
+
+#### ▶️ Run Experiments
+```bash
+python experiment.py
 
 ## 💡 Key Idea
 
