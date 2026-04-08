@@ -293,15 +293,7 @@ All ground-truth answers include the citation source (textbook, SEC filing, cour
 
 ---
 
-## Human Evaluation (Cohen's κ)
 
-The paper reports Cohen's κ = 0.81. To reproduce this:
-
-1. Export 30 random records: `python export_for_human_eval.py`
-2. Have annotators fill `human_eval_template.csv`
-3. Run: `python compute_kappa.py human_eval_results.csv`
-
-The `cohens_kappa()` function in `src/metrics.py` computes this from any two label lists.
 
 
 ## 🤝 Contributions
